@@ -1,8 +1,6 @@
+This is a fork of https://github.com/telecapoland/jamendo-android@1.0.3b
+(https://github.com/telecapoland/jamendo-android/commit/9f3088b460f9e766f07a61f38fd1b2c8a5e87bce)
+with generated build files and relevant parts of the Android SDK checked into the repo to make it
+buildable in isolation.
 
-To easily create Android project for Eclipse perform following steps:
-
-1. clone this repository to your workspace directory
-2. import project without copying
-3. in project directory do `android update project -p . --target 1`
-4. create `gen` directory
-
+To build, simply run `ant`.
